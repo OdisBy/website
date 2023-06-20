@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.ruliam.organizedfw",
+    "sha256_cert_fingerprints":
+    ["3C:F2:7C:1A:F2:46:56:1F:E5:EF:E1:A6:D4:97:AF:0C:DA:9C:E8:C7:2F:2C:C4:BA:DA:D6:99:B0:D9:CD:04:66"]
+  }
+}]
