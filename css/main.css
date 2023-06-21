@@ -10,6 +10,55 @@
     background-color: #16141C;
 }
 
+.apps .aboutApp h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.apps .aboutApp {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.apps .aboutApp .appText {
+    margin: 10px;
+}
+
+.apps .aboutApp .appText h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.apps .aboutApp .appText p {
+    text-align: center;
+}
+
+.apps .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.apps .content .servicesBx {
+    padding: 40px 20pz;
+    background: #222;
+    color: #fff;
+    max-width: 340px;
+    margin: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.apps .content .servicesBx:hover {
+    background: #2196f3;
+}
+
+.apps .content .servicesBx img {
+    max-width: 80px;
+    filter: infert(1);
+}
 
 section {
     padding: 100px;
@@ -430,6 +479,8 @@ img {
     .contactInfo {
         margin: 20px 0;
     }
+
+    
 }
 
 @media (max-width: 600px) {
