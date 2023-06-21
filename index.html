@@ -149,9 +149,9 @@
 
 
     <script>
-      var path = window.location.pathname;
+      var path = window.location.href;
       console.log(path)
-      if (path.startsWith('/organized')) {
+      if (path.includes("/organized")) {
         window.location.href = 'https://ruliams.live/apps/organized.html';
       }
     </script>
